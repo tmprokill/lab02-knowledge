@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "query": "Які архітектурні принципи та схеми СУБД реалізовані у модульному моноліті SmartLease?",
+    "expected_note": "Architecture/modular_monolith.md",
+    "expected_section": "Принципи модульності та межі контекстів",
+    "relevant_reference": "[[modular_monolith#Принципи модульності та межі контекстів]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 2,
+    "query": "Як патерн Outbox гарантує надійність доставки доменних подій у PostgreSQL?",
+    "expected_note": "Architecture/outbox_pattern.md",
+    "expected_section": "Механізм роботи Transactional Outbox",
+    "relevant_reference": "[[outbox_pattern#Механізм роботи Transactional Outbox]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 3,
+    "query": "Які типи подій публікуються при підписанні договору оренди та аварійних заявках?",
+    "expected_note": "Architecture/event_driven_architecture.md",
+    "expected_section": "Типи подій платформи",
+    "relevant_reference": "[[event_driven_architecture#Типи подій платформи]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 4,
+    "query": "Як реалізовано Row-Level Security та ізоляцію клієнтських даних у мультитенантній базі?",
+    "expected_note": "Architecture/multi_tenancy.md",
+    "expected_section": "Стратегія ізоляції даних",
+    "relevant_reference": "[[multi_tenancy#Стратегія ізоляції даних]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 5,
+    "query": "Які атрибути та життєві статуси має сутність Property у системі SmartLease?",
+    "expected_note": "Properties/property_entity.md",
+    "expected_section": "Атрибути та класифікація",
+    "relevant_reference": "[[property_entity#Атрибути та класифікація]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 6,
+    "query": "Які ключові реквізити та умови оплати фіксуються в договорі оренди LeaseAgreement?",
+    "expected_note": "Properties/lease_agreement.md",
+    "expected_section": "Ключові реквізити договору",
+    "relevant_reference": "[[lease_agreement#Ключові реквізити договору]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 7,
+    "query": "Які стани та правила переходу FSM має життєвий цикл договору оренди?",
+    "expected_note": "Properties/lease_lifecycle.md",
+    "expected_section": "Стани та переходи FSM",
+    "relevant_reference": "[[lease_lifecycle#Стани та переходи FSM]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 8,
+    "query": "Які нормативи часу реакції встановлені регламентом SLA для аварійних заявок Emergency?",
+    "expected_note": "Maintenance/sla_management.md",
+    "expected_section": "Часові нормативи реакції за категоріями",
+    "relevant_reference": "[[sla_management#Часові нормативи реакції за категоріями]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 9,
+    "query": "Які правила утримання та повернення гарантійного страхового депозиту SecurityDeposit?",
+    "expected_note": "Finance/security_deposit.md",
+    "expected_section": "Порядок списання та повернення",
+    "relevant_reference": "[[security_deposit#Порядок списання та повернення]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 10,
+    "query": "Який регламент нарахування щомісячних інвойсів та порядок сплати орендарем?",
+    "expected_note": "Finance/billing_invariants.md",
+    "expected_section": "Регламент розрахункового циклу",
+    "relevant_reference": "[[billing_invariants#Регламент розрахункового циклу]]",
+    "is_in_domain": true
+  },
+  {
+    "id": 11,
+    "query": "Як налаштувати квантовий майнінг біткоїнів у системі SmartLease?",
+    "expected_note": null,
+    "expected_section": null,
+    "relevant_reference": null,
+    "is_in_domain": false
+  },
+  {
+    "id": 12,
+    "query": "Які протоколи блокчейн-голосування використовуються для обрання президента?",
+    "expected_note": null,
+    "expected_section": null,
+    "relevant_reference": null,
+    "is_in_domain": false
+  }
+]
